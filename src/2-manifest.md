@@ -74,7 +74,7 @@ Your plugin should contain a `manifest.json` file that supplies key information 
 		}
 	],
 	// The default path to your plugin executable file, relative to your plugin root.
-	// HTML5 is supported if this value ends with the ".html" suffix, and Node.js if this value ends with either of the ".cjs" and ".mjs" suffixes.
+	// HTML5 is supported if this value ends with the ".html" suffix, and Node.js if this value ends with any of ".js", ".cjs" and ".mjs".
 	CodePath: string | null,
 	// An override for CodePath on Windows.
 	CodePathWin: string | null,
