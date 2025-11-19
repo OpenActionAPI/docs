@@ -30,7 +30,7 @@ Used to get the settings value of an instance. When used, the OpenAction server 
 
 ### setGlobalSettings
 
-Used to set the plugin-wide global settings value. When used by the plugin, all property inspectors will receive a `didReceiveSettings` event, and vice versa.
+Used to set the plugin-wide global settings value. When used by the plugin, all property inspectors will receive a `didReceiveGlobalSettings` event, and vice versa.
 
 **Sent by:** Plugin, Property inspector
 
@@ -43,7 +43,7 @@ Used to set the plugin-wide global settings value. When used by the plugin, all 
 
 ### getGlobalSettings
 
-Used to get the plugin-wide global settings value. When used, the OpenAction server will respond with a `didReceiveSettings` event.
+Used to get the plugin-wide global settings value. When used, the OpenAction server will respond with a `didReceiveGlobalSettings` event.
 
 **Sent by:** Plugin, Property inspector
 
