@@ -4,6 +4,8 @@
 
 Fired when the user changes the title parameters of an action.
 
+**Received by:** Plugin
+
 ```ts
 {
 	event: string = "titleParametersDidChange",
