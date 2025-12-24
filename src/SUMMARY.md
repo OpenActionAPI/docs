@@ -7,6 +7,7 @@
 - [Registration](3_registration.md)
 - [Clientbound events](4_clientbound/0_index.md)
     - [Applications](4_clientbound/applications.md)
+    - [Deep link](4_clientbound/deep_link.md)
     - [Devices](4_clientbound/devices.md)
     - [Encoder](4_clientbound/encoder.md)
     - [Keypad](4_clientbound/keypad.md)
