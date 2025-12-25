@@ -1,4 +1,4 @@
-## OpenAction
+# OpenAction
 
 ### Welcome!
 

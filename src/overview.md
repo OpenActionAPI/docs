@@ -1,4 +1,4 @@
-## Overview
+# Overview
 
 OpenAction is an event-driven API that communicates over WebSocket.
 

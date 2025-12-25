@@ -1,4 +1,4 @@
-## Manifest
+# Manifest
 
 Your plugin needs to contain a `manifest.json` file that supplies key information about your plugin to the OpenAction server. It should be present in the root of your plugin directory. The file is the primary description of your plugin and contains information like the path to your plugin's entrypoint and the actions it provides.
 

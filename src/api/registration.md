@@ -1,4 +1,4 @@
-## Registration
+# Registration
 
 The OpenAction server will start your plugin with arguments specifying the means of initialising the WebSocket connection. If you use a plugin SDK, such as openaction-rs, you may be able to skip these steps.
 
