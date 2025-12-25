@@ -1,4 +1,4 @@
-## Architecture
+## Overview
 
 OpenAction is an event-driven API that communicates over WebSocket.
 
@@ -10,4 +10,4 @@ Users may also configure "Multi Actions", where multiple actions are executed in
 
 Events are represented in (stringified) JSON format, with a field to identify the event and an optional payload containing more information about the event, as well as an instance context if the event is instance-related in order to identify it.
 
-For more information about a specific event, consult the [clientbound events](4-clientbound.md) and [serverbound events](5-serverbound.md) pages.
+For more information about a specific event, consult the [clientbound events](api/clientbound/0_index.md) and [serverbound events](api/serverbound/0_index.md) pages.

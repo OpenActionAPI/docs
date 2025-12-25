@@ -30,7 +30,7 @@ Used to get the settings value of an instance. When used, the OpenAction server 
 
 ### setGlobalSettings
 
-Used to set the plugin-wide global settings value. When used by the plugin, all property inspectors will receive a `didReceiveGlobalSettings` event, and vice versa. The `context` property should be set to the UUID value received during [registration](../3_registration.md).
+Used to set the plugin-wide global settings value. When used by the plugin, all property inspectors will receive a `didReceiveGlobalSettings` event, and vice versa. The `context` property should be set to the UUID value received during [registration](../registration.md).
 
 **Sent by:** Plugin, Property inspector
 
@@ -44,7 +44,7 @@ Used to set the plugin-wide global settings value. When used by the plugin, all 
 
 ### getGlobalSettings
 
-Used to get the plugin-wide global settings value. When used, the OpenAction server will respond with a `didReceiveGlobalSettings` event. The `context` property should be set to the UUID value received during [registration](../3_registration.md).
+Used to get the plugin-wide global settings value. When used, the OpenAction server will respond with a `didReceiveGlobalSettings` event. The `context` property should be set to the UUID value received during [registration](../registration.md).
 
 **Sent by:** Plugin, Property inspector
 
