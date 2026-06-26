@@ -72,3 +72,28 @@ Fired on encoder dial up.
 	}
 }
 ```
+
+### touchTap
+
+Fired on encoder touch tap.
+
+**Received by:** Plugin
+
+```ts
+{
+	event: string = "touchTap",
+	action: string,
+	context: string,
+	device: string,
+	payload: {
+		settings: any,
+		coordinates: {
+			row: number,
+			column: number
+		},
+		controller: string,
+		tapPos: [number, number],
+		hold: boolean
+	}
+}
+```

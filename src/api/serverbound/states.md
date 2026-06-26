@@ -58,3 +58,36 @@ Used to switch an action to a state.
 	}
 }
 ```
+
+### setFeedback
+
+Used to set the feedback of an instance's encoder layout.
+
+See the [Stream Deck SDK documentation](https://docs.elgato.com/streamdeck/sdk/references/websocket/plugin#setfeedback) for more information on encoder layouts.
+
+**Sent by:** Plugin
+
+```ts
+{
+	event: string = "setFeedback",
+	context: string,
+	payload: any
+}
+```
+
+### setFeedbackLayout
+
+Used to set the encoder layout of an instance.
+
+**Sent by:** Plugin
+
+```ts
+{
+	event: string = "setFeedbackLayout",
+	context: string,
+	payload: {
+		// A path to the layout file relative to the plugin directory or an ID of a built-in layout.
+		layout: string
+	}
+}
+```
