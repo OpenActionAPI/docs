@@ -16,6 +16,7 @@
     - [Devices](api/clientbound/devices.md)
     - [Encoder](api/clientbound/encoder.md)
     - [Keypad](api/clientbound/keypad.md)
+    - [Miscellaneous](api/clientbound/misc.md)
     - [Property inspector](api/clientbound/property_inspector.md)
     - [Settings](api/clientbound/settings.md)
     - [States](api/clientbound/states.md)
