@@ -16,7 +16,7 @@ Your plugin should provide a function similar to the below to register the plugi
 
 ```js
 function connectOpenActionSocket(port, pluginUUID, registerEvent, info) {
-	const websocket = new WebSocket("ws://localhost:" + port);
+	const websocket = new WebSocket("ws://127.0.0.1:" + port);
 
 	websocket.onopen = () => {
 		websocket.send(JSON.stringify({
@@ -40,7 +40,7 @@ Your property inspectors should provide functions similar to the below to regist
 
 ```js
 function connectOpenActionSocket(port, propertyInspectorUUID, registerEvent, info) {
-	const websocket = new WebSocket("ws://localhost:" + port);
+	const websocket = new WebSocket("ws://127.0.0.1:" + port);
 
 	websocket.onopen = () => {
 		websocket.send(JSON.stringify({
